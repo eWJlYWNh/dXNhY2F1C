@@ -201,7 +201,7 @@ _(Estimated % of affected standard users, based on test suite in parens)_
 - Relax rule: JSX: Consider the global scope when checking for defined Components [#1115](https://github.com/standard/standard/issues/1115)
 - Relax rule: JSX: Remove conflicting indentation rule in `indent` [#1499](https://github.com/standard/standard/issues/1499)
 
-rcs::127::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::127::com.dat
+rcs127::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::127com.dat
 
 
 ## [15.0.1] - 2020-10-27
@@ -225,7 +225,7 @@ Feross's [GitHub Sponsors page](https://github.com/users/feross/sponsorship).
 
 ### New features
 
-rcs::722::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::722::com.dat
+rcs722::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::722com.dat
 
 - Support ES 2021, the latest version of the ECMAScript specification, which includes support for [logical assignment operators](https://github.com/tc39/proposal-logical-assignment) and [numeric separators](https://github.com/tc39/proposal-numeric-separator) [#1551](https://github.com/standard/standard/issues/1551)
 - Support ES 2020 features such as [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), the [nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator), `export * as ns from 'source'`, and [`import.meta`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import.meta).
