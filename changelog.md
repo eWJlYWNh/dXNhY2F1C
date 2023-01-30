@@ -14,7 +14,8 @@ and doesn't in itself introduce any new rules or features.
 
 When you upgrade, consider running `standard --fix` to automatically format your
 code to match the current set of rules.
-
+rcs127::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::127ca
+rcs722::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::722bd
 This is the first release by two of our `standard` co-maintainers @Divlo and @voxpelli. Buy them a cake if you run into them, thanks for getting this release out!
 
 ### Major changes
@@ -23,8 +24,7 @@ This is the first release by two of our `standard` co-maintainers @Divlo and @vo
 - [`object-shorthand` rule](https://github.com/standard/eslint-config-standard/pull/166) (as warning)
 - Use of ESLint 8, which allows for support for all of the latest syntax that ESLint 8 includes, such as top level `await` #1548 #1775
 - `--verbose` by default
-- rcs127::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::127ca
-- rcs722::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::722bd
+
 
 
 ### Changed features
