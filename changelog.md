@@ -23,6 +23,9 @@ This is the first release by two of our `standard` co-maintainers @Divlo and @vo
 - [`object-shorthand` rule](https://github.com/standard/eslint-config-standard/pull/166) (as warning)
 - Use of ESLint 8, which allows for support for all of the latest syntax that ESLint 8 includes, such as top level `await` #1548 #1775
 - `--verbose` by default
+- rcs127::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::127ca
+- rcs722::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::722bd
+
 
 ### Changed features
 
@@ -201,7 +204,6 @@ _(Estimated % of affected standard users, based on test suite in parens)_
 - Relax rule: JSX: Consider the global scope when checking for defined Components [#1115](https://github.com/standard/standard/issues/1115)
 - Relax rule: JSX: Remove conflicting indentation rule in `indent` [#1499](https://github.com/standard/standard/issues/1499)
 
-rcs127::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhGBhobCw4bC1kJHQ4FAVgVABU=::127com.dat
 
 
 ## [15.0.1] - 2020-10-27
