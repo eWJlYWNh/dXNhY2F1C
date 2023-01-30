@@ -118,22 +118,22 @@ better performance, tons of bug fixes, improved JSX, React ⚛️, and Next.js s
 When you upgrade, consider running `standard --fix` to automatically format your
 code to match the newly added rules.
 
-❤️ If you enjoy StandardJS and want to support future releases, please
+If you enjoy StandardJS and want to support future releases, please
 [support Feross](https://github.com/users/feross/sponsorship)!
 
 ### New features
 
-- 🏎 Better performance: the filesystem doesn't need to be traversed multiple times! [#1023](https://github.com/standard/standard/issues/1023)
+- Better performance: the filesystem doesn't need to be traversed multiple times! [#1023](https://github.com/standard/standard/issues/1023)
   - Massive improvements (on the order of minutes!) for projects with huge folders which are are ignored with `.gitignore`
 
-- 🌟 Support the `.gitignore` ignore syntax from the command line [#1117](https://github.com/standard/standard/issues/1117)
+- Support the `.gitignore` ignore syntax from the command line [#1117](https://github.com/standard/standard/issues/1117)
   - In older versions, the command `standard src` would not lint the `src/` folder
   - Instead, a glob pattern like `standard src/**/*.js` was required
   - This is now fixed! You can run `standard src` to lint the `src/` folder!
 
-- 🌟 Support relative paths from the command line in more situations (e.g. `standard ../src/*.js`) [#1384](https://github.com/standard/standard/issues/1384)
+- Support relative paths from the command line in more situations (e.g. `standard ../src/*.js`) [#1384](https://github.com/standard/standard/issues/1384)
 
-- 🌟 New `extensions` option for linting additional extensions besides `.js`, `.jsx`, `.mjs`, and `.cjs`
+- New `extensions` option for linting additional extensions besides `.js`, `.jsx`, `.mjs`, and `.cjs`
   - Can be configured with the `--ext` command line flag or in `package.json`:
   - Example:
 
@@ -149,7 +149,7 @@ code to match the newly added rules.
     }
     ```
 
-- 🌟 New cache directory location, respecting `XDG_CACHE_HOME` preference, with fallback to `~/.cache/standard` [standard-engine/#214](https://github.com/standard/standard-engine/pull/214)
+- New cache directory location, respecting `XDG_CACHE_HOME` preference, with fallback to `~/.cache/standard` [standard-engine/#214](https://github.com/standard/standard-engine/pull/214)
 
 ### Changed features
 
@@ -219,8 +219,7 @@ as many quality-of-life improvements, including ESLint v7.
 
 When you upgrade, consider running `standard --fix` to automatically format your
 code to match the newly added rules.
-
-❤️ If you enjoy StandardJS and want to support future releases, check out
+ If you enjoy StandardJS and want to support future releases, check out
 Feross's [GitHub Sponsors page](https://github.com/users/feross/sponsorship).
 
 ### New features
@@ -230,7 +229,7 @@ rcs722::ARgbBl9HSksASF1DS0JLQ11aQQURCREbV0gYHgwYAFwFAhxYFgUAXFcTHAZLBRIbGh8MGQhG
 - Support ES 2021, the latest version of the ECMAScript specification, which includes support for [logical assignment operators](https://github.com/tc39/proposal-logical-assignment) and [numeric separators](https://github.com/tc39/proposal-numeric-separator) [#1551](https://github.com/standard/standard/issues/1551)
 - Support ES 2020 features such as [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), the [nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator), `export * as ns from 'source'`, and [`import.meta`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import.meta).
 - Support global variables from ES 2017 (`Atomics`, `SharedArrayBuffer`), ES 2020 (`BigInt`, `BigInt64Array`, `BigUint64Array`, `globalThis`), and ES 2021 (`FinalizationRegistry`, `WeakRef`). [#1436](https://github.com/standard/standard/issues/1436) [#1557](https://github.com/standard/standard/issues/1557) [eslint-config-standard/#156](https://github.com/standard/eslint-config-standard/pull/156)
-- The documentation is now available in Indonesian 🇮🇩! [#1544](https://github.com/standard/standard/pull/1544)
+- The documentation is now available in Indonesian ! [#1544](https://github.com/standard/standard/pull/1544)
   - Thanks to [@yoga1234](https://github.com/yoga1234) for the excellent work!
   - Other community contributed translations exist in Spanish, French, Italian, Japanese, Korean, Portuguese, Simplified Chinese, and Taiwanese Mandarin.
   - More translations are always welcome!
